@@ -1,0 +1,165 @@
+header {
+    background-color: #3a3a3a;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+
+  
+ .logo img {
+    max-height: 50px;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  
+  .phone {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+
+  }
+  
+  .working-hours {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .hero {
+    background-color: #f8f8f8;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .property-search {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .property-search h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group select,
+  .input-group input[type="text"] {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .featured-properties {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .featured-properties h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  footer nav ul {
+    display: flex;
+  }
+  
+  footer nav ul li {
+    margin-right: 10px;
+  }
+  
+  footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .legal-info p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
